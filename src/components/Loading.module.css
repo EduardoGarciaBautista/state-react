@@ -1,0 +1,14 @@
+.loader {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(10px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loaderText {
+  font-size: 30px;
+  color: var(--dark-text);
+}

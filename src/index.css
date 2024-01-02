@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --bg-color: #1A120B;
+  --text: #3C2A21;
+  --dark-text: #D5CEA3;
+  --border: #E5E5CB;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--dark-text);
+}
+
+html {
+  font-family: 'Roboto Mono', monospace;
+}

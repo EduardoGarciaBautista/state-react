@@ -1,0 +1,20 @@
+.item {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.itemImage {
+  width: 100px;
+  height: 100px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
